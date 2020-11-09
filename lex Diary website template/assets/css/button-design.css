@@ -1,0 +1,33 @@
+.btn-round {
+    width: 60px;
+    height: 60px;
+    margin: 10px;
+    border-radius: 50%;
+  }
+  
+  .btn-wide {
+   
+    height: 100px;
+    margin: 10px;
+    border-radius: 100px;
+    font-size: 18px;
+    color: #708090;
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .btn-normal {
+    box-shadow: -4px -4px 7px #fffdfd, 3px 3px 7px #bbc3cc;
+  }
+  
+  .btn-pressed {
+    box-shadow: -3px -3px 7px #ffffff inset, 3px 3px 7px #bbc3cc inset;
+  }
+  
+  .btn-normal:active {
+    box-shadow: -3px -3px 7px #ffffff inset, 3px 3px 7px #bbc3cc inset;
+    font-size: 16px;
+    user-select: none;
+  }

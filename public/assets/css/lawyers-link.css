@@ -1,0 +1,26 @@
+.uploaded-img-section{
+    width:100px;
+    height: 100px;
+    background-color: rgb(204, 239, 255);
+    border: 1px solid rgb(204, 239, 255);
+    object-fit: cover;
+}
+.profile-img{
+    border-radius: 50%;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+.upload-img-button{
+    background-color:#cbe5ff;
+    padding: 10px 15px;
+    border-radius: 20px;
+    color: #0f3f70;
+}
+.post-btn{
+    color: aliceblue;
+    margin: 10px 0;
+}
+.post-img{
+    width: 100%;
+    height: auto;
+}
